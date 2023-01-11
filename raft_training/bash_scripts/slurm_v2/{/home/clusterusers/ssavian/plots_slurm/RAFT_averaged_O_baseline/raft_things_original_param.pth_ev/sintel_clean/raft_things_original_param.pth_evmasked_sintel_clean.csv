@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,raft_things_original_param.pth_ev
+px_count,255401889.0,126195945.0,83171190.0,raft_things_original_param.pth_ev
+EPE_sum_msk,0.27,1.26,6.11,raft_things_original_param.pth_ev
+EPEu_sum_msk,0.2,1.03,4.43,raft_things_original_param.pth_ev
+EPEv_sum_msk,0.13,0.44,3.19,raft_things_original_param.pth_ev
+G_mag_L2_masked_sum,1.65,10.45,54.51,raft_things_original_param.pth_ev
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,raft_things_original_param.pth_ev
+I_L2_sum_m1_msk,0.21,1.01,3.11,raft_things_original_param.pth_ev
+Iv_sum_m1_msk,0.1,0.32,1.65,raft_things_original_param.pth_ev
+Iu_sum_m1_msk,0.15,0.85,2.22,raft_things_original_param.pth_ev

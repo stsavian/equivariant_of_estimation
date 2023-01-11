@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b4bba6c0-4e8c-4bb8-ab49-2cbf0e058f55" name="ironspeed">
+        <fileTransfer accessType="SFTP" host="10.10.20.160" port="22" sshConfigId="e27e37dd-2640-4e4b-ae24-1c7557752781" sshConfig="ssavian@10.10.20.160:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

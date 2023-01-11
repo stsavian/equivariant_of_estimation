@@ -1,0 +1,37 @@
+:/home/ssavian/PYCHARM_PROJECTS/test_raft
+eval mat
+computed pairs 0
+Traceback (most recent call last):
+  File "test_irr.py", line 59, in <module>
+    main(args)
+  File "test_irr.py", line 17, in main
+    include_upper_bound=True,test_Tlr_Tud=False,rotate_90_degrees=False)
+  File "/home/ssavian/PYCHARM_PROJECTS/test_raft/dataset_iterators/matlab_dataset_iterator.py", line 40, in generate_dataframe
+    row_quarters,row_col_quarters = metrics_from_matrix.quarter_metrics(out, out_star, GND)
+  File "/home/ssavian/PYCHARM_PROJECTS/test_raft/generate_matrix_and_stats/metrics_from_matrix.py", line 182, in quarter_metrics
+    row['spatium'+ '_' +label] = utils_OF.spatium_error(out, target)[0]
+  File "/home/ssavian/PYCHARM_PROJECTS/test_raft/utils/utils_OF.py", line 77, in spatium_error
+    sim_m = torch.nn.functional.cosine_similarity(torch.from_numpy(out_flo.copy()), torch.from_numpy(target.copy()), dim=2, eps=1e-8)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "test_irr.py", line 59, in <module>
+    main(args)
+  File "test_irr.py", line 12, in main
+    model_inference =  inference_irr.inference(args.train_pth[0],'irr-PWC_Net')
+  File "/home/ssavian/PYCHARM_PROJECTS/test_raft/inference_scripts/inference_irr.py", line 35, in __init__
+    checkpoint = torch.load(model_checkpoint_path)
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 387, in load
+    return _load(f, map_location, pickle_module, **pickle_load_args)
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 574, in _load
+    result = unpickler.load()
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 537, in persistent_load
+    deserialized_objects[root_key] = restore_location(obj, location)
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 119, in default_restore_location
+    result = fn(storage, location)
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 95, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/serialization.py", line 78, in validate_cuda_device
+    if not torch.cuda.is_available():
+  File "/home/ssavian/anaconda3/envs/IRR_PWC_env/lib/python3.7/site-packages/torch/cuda/__init__.py", line 48, in is_available
+    not torch._C._cuda_isDriverSufficient()):
+KeyboardInterrupt

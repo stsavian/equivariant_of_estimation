@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,raft-chairs-original-retrained.pth
+px_count,4220820.0,12448592.0,31704552.0,raft-chairs-original-retrained.pth
+EPE_sum_msk,0.26,0.31,10.6,raft-chairs-original-retrained.pth
+EPEu_sum_msk,0.17,0.2,7.28,raft-chairs-original-retrained.pth
+EPEv_sum_msk,0.17,0.21,7.43,raft-chairs-original-retrained.pth
+G_mag_L2_masked_sum,2.94,12.7,58.3,raft-chairs-original-retrained.pth
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,raft-chairs-original-retrained.pth
+I_L2_sum_m1_msk,0.0,0.0,0.0,raft-chairs-original-retrained.pth
+Iv_sum_m1_msk,0.0,0.0,0.0,raft-chairs-original-retrained.pth
+Iu_sum_m1_msk,0.0,0.0,0.0,raft-chairs-original-retrained.pth

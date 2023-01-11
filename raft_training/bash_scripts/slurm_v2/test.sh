@@ -1,0 +1,1 @@
+bash evaluate.sh -a "raft_mir_batch_8" -b "/scratch/ssavian/RAFT_trained_models/raft_mir_batch_8/raft_mir_batch_8.pth" -c "/home/clusterusers/ssavian/plots_slurm/RAFT_averaged_O" -d "sintel kaleidoscope" -e "true"

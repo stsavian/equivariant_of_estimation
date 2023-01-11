@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,raft-chairs-original-retrained.pth_ev
+px_count,255401889.0,126195945.0,83171190.0,raft-chairs-original-retrained.pth_ev
+EPE_sum_msk,0.67,2.5,17.83,raft-chairs-original-retrained.pth_ev
+EPEu_sum_msk,0.43,1.7,12.65,raft-chairs-original-retrained.pth_ev
+EPEv_sum_msk,0.42,1.44,9.95,raft-chairs-original-retrained.pth_ev
+G_mag_L2_masked_sum,1.65,10.45,54.51,raft-chairs-original-retrained.pth_ev
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,raft-chairs-original-retrained.pth_ev
+I_L2_sum_m1_msk,0.48,1.97,8.85,raft-chairs-original-retrained.pth_ev
+Iv_sum_m1_msk,0.32,1.15,5.42,raft-chairs-original-retrained.pth_ev
+Iu_sum_m1_msk,0.3,1.31,5.81,raft-chairs-original-retrained.pth_ev

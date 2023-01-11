@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+px_count,4220820.0,12448592.0,31704552.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+EPE_sum_msk,0.15,0.22,8.57,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+EPEu_sum_msk,0.11,0.15,5.99,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+EPEv_sum_msk,0.09,0.15,5.77,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+G_mag_L2_masked_sum,2.94,12.7,58.3,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+I_L2_sum_m1_msk,0.0,0.0,0.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+Iv_sum_m1_msk,0.0,0.0,0.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev
+Iu_sum_m1_msk,0.0,0.0,0.0,things_no_mir_fine_tune_RAFT_chairs_no_mirror.pth_ev

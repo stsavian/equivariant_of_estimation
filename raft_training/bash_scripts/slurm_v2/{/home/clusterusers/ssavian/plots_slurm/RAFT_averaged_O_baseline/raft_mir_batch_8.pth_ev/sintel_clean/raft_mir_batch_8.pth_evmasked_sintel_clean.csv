@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,raft_mir_batch_8.pth_ev
+px_count,255401889.0,126195945.0,83171190.0,raft_mir_batch_8.pth_ev
+EPE_sum_msk,0.42,1.37,9.22,raft_mir_batch_8.pth_ev
+EPEu_sum_msk,0.27,0.92,6.37,raft_mir_batch_8.pth_ev
+EPEv_sum_msk,0.26,0.82,5.24,raft_mir_batch_8.pth_ev
+G_mag_L2_masked_sum,1.65,10.45,54.51,raft_mir_batch_8.pth_ev
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,raft_mir_batch_8.pth_ev
+I_L2_sum_m1_msk,0.29,0.85,4.72,raft_mir_batch_8.pth_ev
+Iv_sum_m1_msk,0.18,0.53,3.03,raft_mir_batch_8.pth_ev
+Iu_sum_m1_msk,0.19,0.55,2.92,raft_mir_batch_8.pth_ev

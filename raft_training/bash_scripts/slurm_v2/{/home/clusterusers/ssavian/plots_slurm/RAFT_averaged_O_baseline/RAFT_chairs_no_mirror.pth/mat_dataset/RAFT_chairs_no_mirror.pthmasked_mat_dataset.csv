@@ -1,0 +1,11 @@
+,0,5,20,model
+thresholds,0.0,5.0,20.0,RAFT_chairs_no_mirror.pth
+px_count,4220820.0,12448592.0,31704552.0,RAFT_chairs_no_mirror.pth
+EPE_sum_msk,0.23,0.36,11.51,RAFT_chairs_no_mirror.pth
+EPEu_sum_msk,0.16,0.24,8.21,RAFT_chairs_no_mirror.pth
+EPEv_sum_msk,0.15,0.24,7.71,RAFT_chairs_no_mirror.pth
+G_mag_L2_masked_sum,2.94,12.7,58.3,RAFT_chairs_no_mirror.pth
+G_mag_L2_PIXEL_COUNT,1.0,1.0,1.0,RAFT_chairs_no_mirror.pth
+I_L2_sum_m1_msk,0.0,0.0,0.0,RAFT_chairs_no_mirror.pth
+Iv_sum_m1_msk,0.0,0.0,0.0,RAFT_chairs_no_mirror.pth
+Iu_sum_m1_msk,0.0,0.0,0.0,RAFT_chairs_no_mirror.pth

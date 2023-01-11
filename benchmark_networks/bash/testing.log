@@ -1,0 +1,315 @@
+INPUT PARAMETERS
+raft_test_bash3
+/media/ssavian/Data/BACKUP_v2/BACKUP_models/transfer/MODELS_things/things_fine_tune_raft-chairs_mir/things_fine_tune_raft-chairs_mir.pth
+/media/ssavian/Data/TEST/wacv_repo_v3/
+sintel
+false
+/home/ssavian/CODE/towards_robust_of_estimation/benchmark_networks/bash/../test_all_nets/test_raft.py
+eval sintel clean
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds
+eval sintel final
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds
+INPUT PARAMETERS
+raft_test_bash1
+/media/ssavian/Data/BACKUP_v2/BACKUP_models/transfer/MODELS_things/things_fine_tune_raft-chairs_mir/things_fine_tune_raft-chairs_mir.pth
+/media/ssavian/Data/TEST/wacv_repo_v3/
+sintel
+false
+/home/ssavian/CODE/towards_robust_of_estimation/benchmark_networks/bash/../test_all_nets/test_raft.py
+eval sintel clean
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds
+eval sintel final
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds
+INPUT PARAMETERS
+raft_test_bash2
+/media/ssavian/Data/BACKUP_v2/BACKUP_models/transfer/MODELS_things/things_fine_tune_raft-chairs_mir/things_fine_tune_raft-chairs_mir.pth
+/media/ssavian/Data/TEST/wacv_repo_v3/
+sintel
+false
+/home/ssavian/CODE/towards_robust_of_estimation/benchmark_networks/bash/../test_all_nets/test_raft.py
+eval sintel clean
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds
+eval sintel final
+alley_1 50
+alley_2 50
+ambush_2 21
+ambush_4 33
+ambush_5 50
+ambush_6 20
+ambush_7 50
+bamboo_1 50
+bamboo_2 50
+bandage_1 50
+bandage_2 50
+cave_2 50
+cave_4 50
+market_2 50
+market_5 50
+market_6 40
+mountain_1 50
+shaman_2 50
+shaman_3 50
+sleeping_1 50
+sleeping_2 50
+temple_2 50
+temple_3 50
+TOT 1064frames
+alley_1
+alley_2
+ambush_2
+ambush_4
+ambush_5
+ambush_6
+ambush_7
+bamboo_1
+bamboo_2
+bandage_1
+bandage_2
+cave_2
+cave_4
+market_2
+market_5
+market_6
+mountain_1
+shaman_2
+shaman_3
+sleeping_1
+sleeping_2
+temple_2
+temple_3
+thresholds

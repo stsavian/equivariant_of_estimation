@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --job-name=g06CT_mir
+#SBATCH --output=/home/clusterusers/ssavian/plots_slurm/logs/job-%j.out
+#SBATCH --error=/home/clusterusers/ssavian/plots_slurm/logs/job-%j.err
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=ssavian@unibz.it
+#SBATCH --partition gpu
+#SBATCH --gres=gpu
+#SBATCH --nodes 1
+#SBATCH --ntasks-per-node=16
+
+
+module load cuda-10.2
+module load anaconda3
+source /opt/packages/anaconda3/etc/profile.d/conda.sh
+conda activate raft
+hostname
+
+#bash training_chairs1.sh
+bash training_chairs_things_FWDg.sh

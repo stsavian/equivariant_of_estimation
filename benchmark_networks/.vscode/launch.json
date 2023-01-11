@@ -1,0 +1,79 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "WACV_toy_w_gnd",
+            "type": "python",
+            "request": "launch",
+            "python":"/home/ssavian/anaconda3/envs/raft_v2/bin/python",
+            "program": "/home/ssavian/CODE/test_raft_aurora/visualization/visualize_presentation/make_toy_checkerborad_v3.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+
+        {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug",
+            "cwd": "${workspaceFolder}",
+            "program": "${file}",
+            "args": []
+            },
+
+        {
+            "name": "test_raft",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/ssavian/CODE/test_raft_aurora/test_raft.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--model_name","raft_things_mir","--testing_datasets","sintel" ,"--results_file_pth", "/media/ssavian/Data/TEST/test_raft_output" ,"--results_pth", "/media/ssavian/Data/TEST/test_raft_output","--sintel_pth","/media/ssavian/Data/DATASETS/sintel","--train_pth","/media/ssavian/Data/BACKUP_v2/BACKUP_models/transfer/MODELS_things/things_fine_tune_raft-chairs_mir/things_fine_tune_raft-chairs_mir.pth","--mode", "final"]
+        },
+        {
+            "name": "WACV_visualize",
+            "type": "python",
+            "request": "launch",
+            "python":"/home/ssavian/anaconda3/envs/raft_v2/bin/python",
+            "program": "/home/ssavian/CODE/test_raft_aurora/visualization/dataset_visualization/visualize_sintel.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--norm_values","0","13","--normalization","fixed","--results_pth","/media/ssavian/Data1/EVALUATION/WACV_visualization_test","/media/ssavian/Data/TEST/test_raft_output" ,"--sintel_pth","/media/ssavian/Data/DATASETS/sintel","--train_pth","/media/ssavian/Data/BACKUP_v2/BACKUP_models/transfer/MODELS_things/things_fine_tune_raft-chairs_mir/things_fine_tune_raft-chairs_mir.pth","--mode", "final"]
+        },
+        {
+            "name": "WACV_video",
+            "type": "python",
+            "request": "launch",
+            "python":"/home/ssavian/anaconda3/envs/raft_v2/bin/python",
+            "program": "/home/ssavian/CODE/test_raft_aurora/visualization/make_video.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--input_folder","/media/ssavian/Data1/EVALUATION/WACV_visualization/temp_vis_baseline","--video_folder","/media/ssavian/Data1/EVALUATION/WACV_visualization/video_baseline.mp4"]
+        },
+        {
+            "name": "WACV_video our",
+            "type": "python",
+            "request": "launch",
+            "python":"/home/ssavian/anaconda3/envs/raft_v2/bin/python",
+            "program": "/home/ssavian/CODE/test_raft_aurora/visualization/make_video.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--input_folder","/media/ssavian/Data1/EVALUATION/WACV_visualization/temp_vis","--video_folder","/media/ssavian/Data1/EVALUATION/WACV_visualization/video_best.mp4"]
+        },
+
+        {
+            "name": "custom_hist",
+            "type": "python",
+            "request": "launch",
+            "python":"/home/ssavian/anaconda3/envs/raft_v2/bin/python",
+            "program": "/home/ssavian/CODE/test_raft_aurora/histograms_for_thesis/custom_histograms/hist_from_dataframe.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--plots_pth", "/media/ssavian/Data1/EVALUATION/WACV_hist" ],
+        },
+    ]
+}
+

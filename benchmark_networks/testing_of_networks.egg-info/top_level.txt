@@ -1,0 +1,11 @@
+compare_networks
+dataframe_operations
+dataset_iterators
+generate_matrix_and_stats
+histograms_for_thesis
+inference_scripts
+networks
+test_all_nets
+test_groundtruth_motion
+test_networks_inference
+utils
