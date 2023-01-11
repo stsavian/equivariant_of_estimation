@@ -1,6 +1,5 @@
 # Towards Equivariant Optical Flow Estimation with Deep Learning
 ## _official repository of the paper_
-## _first version_
 https://openaccess.thecvf.com/content/WACV2023/papers/Savian_Towards_Equivariant_Optical_Flow_Estimation_With_Deep_Learning_WACV_2023_paper.pdf
 
 ## Features
